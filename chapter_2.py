@@ -54,3 +54,24 @@ s1+(' '+s2)*2+(' '+s3)*3
 (s1+' '+s2+' ')*7
 #(e) 'batbatcod batbatcod batbatcod batbatcod batbatcod '
 (s2*2+s3+' ')*5
+#Practice Problem 2.5
+#Start by executing the assignment:
+s='0123456789'
+#Now write expressions using string s and the indexing operator that evulate to:
+#(a) '0'
+s[0]
+#(b) '1'
+s[2]
+#(c) '6'
+s[6]
+#(d) '8'
+s[8]
+#(e) '9'
+s[9]
+#Practice Problem 2.6
+#First execute the assignment
+words=['bat','ball','barn','basket','badminton']
+#Now write two Python expressions that evulate to the first and last, respectively, word in words, in dictionary order.
+min(words)+', '+max(words)
+#Practice Problem 2.7
+#

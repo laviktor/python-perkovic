@@ -74,4 +74,16 @@ words=['bat','ball','barn','basket','badminton']
 #Now write two Python expressions that evulate to the first and last, respectively, word in words, in dictionary order.
 min(words)+', '+max(words)
 #Practice Problem 2.7
-#
+#Given the list of student homework grades
+grades=[9,7,7,10,3,9,6,6,2]
+#Write:
+#(a) An expression that evaluates to the number of 7 grades
+grades.count(7)
+#(b) A statement that changes the last grade to 4
+grades[9]=4 #Better syntax is to start from the negative portion
+#(c) An expression that evulates to the maximum grade
+max(grades)
+#(d) A statement that sorts the list grades
+grades.sort()
+#(e) An expression that evulates to the average grade
+sum(grades)/len(grades)

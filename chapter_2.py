@@ -87,3 +87,13 @@ max(grades)
 grades.sort()
 #(e) An expression that evulates to the average grade
 sum(grades)/len(grades)
+#Practice Problem 2.10
+#Write Python expressions corresponding to the following:
+#(a) The length of the hypotenuse in a right triangle whose other two sides have lengths a and b
+math.sqrt(a**2+b**2)
+#(b) The value of the expression that evulatess whether the lenth of the above hyptoenuse is 5
+math.sqrt(a**2+b**2)==5
+#(c) The area of a disk of radius a
+math.pi*a**2
+#(d) The value of the Boolean expression that checks whether a point with coordinates x and y is inside a circle with center (a,b) and radius r
+(x-a)**2+(y-b)**2<r**2

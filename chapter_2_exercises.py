@@ -17,6 +17,7 @@ s15 = 'goodbye'
 s15[0]=='g'
 s15[6]=='g'
 # (c) the first two characters are 'g' and 'a'
+s15[0]+s15[1]=='ga'
 s15[-2]=='x'
 # (e) the middle character is 'd'
 s15[0]==s15[-1]

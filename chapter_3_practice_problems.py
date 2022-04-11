@@ -20,3 +20,14 @@ if hits > 10 and shield == 0:
  print('You are dead...')
 # (d)
 # if direction == 'north', ' <-- This is incorrect because they are string, despite having an if statement of true/false
+# 3.3
+# (a)
+if year % 4 == 0:
+ print('Could be a leap year.')
+else:
+ print('Definitely not a leap year.')
+# (b)
+if ticket == lottery:
+ print('You won!')
+else:
+ print('Better luck next time...')s

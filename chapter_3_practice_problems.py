@@ -31,3 +31,11 @@ if ticket == lottery:
  print('You won!')
 else:
  print('Better luck next time...')
+# 3.4
+id = ['joe', 'sue', 'hani', 'sophie']
+user = input('Login: ')
+if user in id:
+	print('You are in!')
+else:
+	print('User unknown.')
+print('Done.')

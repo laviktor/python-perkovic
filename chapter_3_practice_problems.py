@@ -14,5 +14,9 @@ if age > 62:
 name = input('Enter a baseball player''s last name: ')
 list2 = ['Musial', 'Aaraon', 'Williams', 'Gehrig', 'Ruth']
 if name in list2:
- print('One of thetop 5 baseball players, ever!')
+ print('One of the top 5 baseball players, ever!')
 # (c)
+if hits > 10 and shield == 0:
+ print('You are dead...')
+# (d)
+# if direction == 'north', ' <-- This is incorrect because they are string, despite having an if statement of true/false

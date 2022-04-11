@@ -30,4 +30,4 @@ else:
 if ticket == lottery:
  print('You won!')
 else:
- print('Better luck next time...')s
+ print('Better luck next time...')

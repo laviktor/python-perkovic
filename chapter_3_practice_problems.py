@@ -39,3 +39,8 @@ if user in id:
 else:
 	print('User unknown.')
 print('Done.')
+# 3.5
+l = input('Enter word list: ')
+for x in l:
+	if len(x) == 4:
+		print(x)

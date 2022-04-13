@@ -44,3 +44,4 @@ l = input('Enter word list: ')
 for x in l:
 	if len(x) == 4:
 		print(x)
+# This print out bypasses the printed dummy variable cycling through the for loop...why?

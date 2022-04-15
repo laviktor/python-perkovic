@@ -45,3 +45,5 @@ for x in l:
 	if len(x) == 4:
 		print(x)
 # This print out bypasses the printed dummy variable cycling through the for loop...why?
+# Even though the input() is suppose to be a string object, we still have to pass through eval()...why?
+# It appears that if literally ANY other object string, input() has to be passed through eval()

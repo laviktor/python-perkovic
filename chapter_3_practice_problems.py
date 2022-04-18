@@ -47,3 +47,27 @@ for x in l:
 # This print out bypasses the printed dummy variable cycling through the for loop...why?
 # Even though the input() is suppose to be a string object, we still have to pass through eval()...why?
 # It appears that if literally ANY other object string, input() has to be passed through eval()
+# 3.6
+for i in range(10):
+	print(i)
+for i in range(2):
+	print(i)
+# 3.7
+for i in range(3, 13):
+	print(i)
+for i in range(0, 9, 2):
+	print(i)
+for i in range(0, 24, 3):
+	print(i)
+for i in range(3, 12, 5):
+	print(i)
+# 3.8
+def a(x, y):
+	return (x + y)/2
+# 3.9
+import math
+r = eval(input('Enter a raidus: '))
+def circumfrence(r):
+	return 2*math.pi*r
+print(circumfrence(r))
+# 3.10

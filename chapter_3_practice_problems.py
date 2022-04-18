@@ -66,8 +66,12 @@ def a(x, y):
 	return (x + y)/2
 # 3.9
 import math
-r = eval(input('Enter a raidus: '))
+r = eval(input('Enter a radius: '))
 def circumfrence(r):
 	return 2*math.pi*r
 print(circumfrence(r))
 # 3.10
+def negatives(x):
+	for i in x:
+		if i < 0:
+			print(i)

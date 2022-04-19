@@ -76,3 +76,8 @@ def negatives(x):
 		if i < 0:
 			print(i)
 # 3.11
+def average(x, y):
+	'returns average of x and y'
+	returns (x + y)/2
+# 3.12 - hand-written work
+# 3.13

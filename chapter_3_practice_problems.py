@@ -81,3 +81,5 @@ def average(x, y):
 	returns (x + y)/2
 # 3.12 - hand-written work
 # 3.13
+team = ['Ava', 'Eleanor', 'Clare', 'Sarah']
+team[0], team[-1] = team[-1], team[0]

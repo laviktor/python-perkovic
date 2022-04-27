@@ -84,3 +84,6 @@ def average(x, y):
 team = ['Ava', 'Eleanor', 'Clare', 'Sarah']
 team[0], team[-1] = team[-1], team[0]
 # 3.14
+ingredients = ['flour', 'sugar', 'butter', 'apples']
+def swapFL(lst):
+	lst[0], lst[-1] = lst[-1], lst[0]

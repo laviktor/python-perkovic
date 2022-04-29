@@ -34,3 +34,15 @@ for i in lst20:
   if i**2 % 8 == 0:
     print(i)
 # 3.21
+for i in range(0, 2):
+  print(i, end=" ")
+for i in range(0, 1):
+  print(i, end=" ")
+for i in range(3, 7):
+  print(i, end=" ")
+for i in range(1, 2):
+  print(i, end=" ")
+for i in range(0, 4, 3):
+  print(i, end=" ")
+for i in range(5, 22, 4):
+  print(i, end=" ")

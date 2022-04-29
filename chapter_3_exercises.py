@@ -46,8 +46,8 @@ for i in range(0, 4, 3):
   print(i, end=" ")
 for i in range(5, 22, 4):
   print(i, end=" ")
-# 3.23
-list23 = eval(input("Enter list of words: "))
-for i in list23:
-  if 'secret' != list23[i]:
+# 3.22
+list22 = eval(input("Enter list of words: "))
+for i in list22:
+  if 'secret' != list22[i]:
     print(i)

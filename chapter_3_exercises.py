@@ -54,5 +54,7 @@ for i in list22:
 # 3.23
 list23 = eval(input('Enter list: '))
 for i in list23:
-  if i[0] == :
+  if i[0] in 'abcdefghijklmABCDEFGHIJKLM':
     print(i)
+# 3.24
+list24 = eval(input('Enter a list :'))

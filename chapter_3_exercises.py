@@ -57,4 +57,11 @@ for i in list23:
   if i[0] in 'abcdefghijklmABCDEFGHIJKLM':
     print(i)
 # 3.24
-list24 = eval(input('Enter a list :'))
+list24 = eval(input('Enter a list: '))
+print('The first list element is', list24[0])
+print('The last list element is', list24[-1])
+# 3.25
+int25 = eval(input('Enter n: '))
+for i in range(4):
+  print(int25 * i)
+# 3.26

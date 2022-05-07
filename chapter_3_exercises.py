@@ -66,5 +66,6 @@ for i in range(4):
   print(int25 * i)
 # 3.26
 int26 = eval(input('Enter n: '))
-for i in range(4):
+for i in range(int26 - 1):
   print(int26 ** 2)
+# 3.27

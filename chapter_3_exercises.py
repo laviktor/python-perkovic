@@ -74,3 +74,11 @@ for i in range(1, int27 + 1):
   if int27 % i == 0:
     print(i)
 # 3.28
+num28_1 = eval(input('Enter first number: '))
+num28_2 = eval(input('Enter second number: '))
+num28_3 = eval(input('Enter third number: '))
+num28_4 = eval(input('Enter last number: '))
+avg28 = (num28_1 + num28_2 + num28_3) / 3
+if num28_4 == avg28:
+    print('Equal')
+# 3.29

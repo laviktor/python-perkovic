@@ -82,3 +82,22 @@ avg28 = (num28_1 + num28_2 + num28_3) / 3
 if num28_4 == avg28:
     print('Equal')
 # 3.29
+x = eval(input('Enter x: '))
+y = eval(input('Enter y: '))
+
+# circle centered at origin with radius 8: x^2 + y^2 = 8^2
+
+radius = 8
+
+if (x**2 + y**2) <= radius ** 2:
+  print('It is in!')
+# 3.30
+num30 = eval(input('Enter n: '))
+num30_thousands = num30 // 1000
+print(num30_thousands)
+num30_hundreds = num30 // 100 - num30_thousands * 10
+print(num30_hundreds)
+num30_tens = num30 // 10 - num30_thousands * 100 - num30_hundreds * 10
+print(num30_tens)
+print(num30 - num30_thousands * 1000 - num30_hundreds * 100 - num30_tens * 10)
+# 3.31

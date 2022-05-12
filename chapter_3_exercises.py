@@ -101,3 +101,10 @@ num30_tens = num30 // 10 - num30_thousands * 100 - num30_hundreds * 10
 print(num30_tens)
 print(num30 - num30_thousands * 1000 - num30_hundreds * 100 - num30_tens * 10)
 # 3.31
+ex31a = 'abc'
+ex31b = 'dna'
+def reverse_string(x):
+  print(x[-1]+x[-2]+x[-3])
+reverse_string(ex31a)
+reverse_string(ex31b)
+# 3.32

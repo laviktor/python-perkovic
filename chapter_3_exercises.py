@@ -108,3 +108,41 @@ def reverse_string(x):
 reverse_string(ex31a)
 reverse_string(ex31b)
 # 3.32
+ex32a = 10
+ex32b = 10
+ex32c = 10
+ex32d = 35
+ex32e = 10
+ex32f = 45
+
+# function in terms of returning
+def pay1(x, y):
+  if y <= 40:
+    return x * y
+  else:
+    return ((x * 40) + (x * 1.5 * (y - 40)))
+print(pay1(ex32a, ex32b))
+print(pay1(ex32c, ex32d))
+print(pay1(ex32e, ex32f))
+print()
+# function in terms of printing
+def pay2(x, y):
+  if y <= 40:
+    print(x * y)
+  else:
+    print(((x * 40) + (x * 1.5 * (y - 40))))
+pay2(ex32a, ex32b)
+pay2(ex32c, ex32d)
+pay2(ex32e, ex32f)
+print()
+
+# 3.33
+ex33a = 1
+ex33b = 2
+def prob(x):
+	return 2 ** -x
+print(prob(ex33a))
+print(prob(ex33b))
+print()
+
+# 3.34

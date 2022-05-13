@@ -150,9 +150,9 @@ ex34a = 123
 ex34b = 908
 def reverse_int(x):
 	last = x // 100
-	middle = (x // 10)
+	middle = (x // 10) - (last * 10)
 	first = (x - last * 100 - middle * 10)
-	return first, middle, last
+	return first * 100 + middle * 10 + last
 print(reverse_int(ex34a))
 print(reverse_int(ex34b))
 print()

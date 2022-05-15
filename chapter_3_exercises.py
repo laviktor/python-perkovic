@@ -158,3 +158,17 @@ print(reverse_int(ex34b))
 print()
 
 # 3.35
+# ex35a = 0, 0, 1, 1
+# ex35b = 0, 0, 0, 1
+def points(x1, y1, x2, y2):
+	if (x2 - x1) == 0:
+		m = 'infinity'
+	else:
+		m = (y2 - y1) / (x2 - x1)
+	distance = ((x1 - x2) ** 2 + (y1 - y2) ** 2) ** (1 / 2)
+	print('The slope is ' + str(m) + ' and the distance is ' + str(distance))
+points(0, 0, 1, 1)
+points(0, 0, 0, 1)
+print()
+
+# 3,36

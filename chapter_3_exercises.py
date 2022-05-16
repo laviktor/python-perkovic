@@ -172,3 +172,23 @@ points(0, 0, 0, 1)
 print()
 
 # 3,36
+ex36a = 'Tuesday'
+def abbreviation(x):
+	abb = x[0] + x[1]
+	return abb
+print(abbreviation(ex36a))
+print()
+
+# 3.37
+def collision(x1, y1, r1, x2, y2, r2):
+	distance_center = ((x1 - x2) ** 2 + (y1 - y2) ** 2) ** (1 / 2)
+	radius_sum = r1 + r2
+	if distance_center <= radius_sum:
+		return 'True'
+	else:
+		return 'False'
+print(collision(0, 0, 3, 0, 5, 3))
+print(collision(0, 0, 1.4, 2, 2, 1.4))
+print()
+
+# 3.38

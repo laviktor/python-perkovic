@@ -199,3 +199,8 @@ def partition(x):
 			return i
 print(partition(ex38a))
 print()
+
+# 3.39
+# ex39a = 'John', 'Locke'
+def lastF(x, y):
+	

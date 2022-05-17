@@ -192,3 +192,10 @@ print(collision(0, 0, 1.4, 2, 2, 1.4))
 print()
 
 # 3.38
+ex38a = ['Eleanor', 'Evelyn', 'Sammy', 'Owen', 'Gavin']
+def partition(x):
+	for i in x:
+		if i[0] in 'ABCDEFGHIJKLMabcdefghijklm':
+			return i
+print(partition(ex38a))
+print()

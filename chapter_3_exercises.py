@@ -201,6 +201,10 @@ print(partition(ex38a))
 print()
 
 # 3.39
-# ex39a = 'John', 'Locke'
+FirstName1 = 'John'
+LastName1 = 'Locke'
+FirstName2 = 'Albert'
+LastName2 = 'Camus'
 def lastF(x, y):
-	
+	return y + ', ' + x[0] + '.'
+lastF(FirstName1, LastName1)

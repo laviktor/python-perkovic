@@ -212,5 +212,6 @@ print(lastF(FirstName2, LastName2))
 print()
 
 # 3.40
+[[95, 92, 86, 87], [66, 54], [89, 72, 100], [33, 0, 0]]
 def avg40(x):
 	

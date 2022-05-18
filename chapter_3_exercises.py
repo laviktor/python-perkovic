@@ -215,3 +215,15 @@ print()
 [[95, 92, 86, 87], [66, 54], [89, 72, 100], [33, 0, 0]]
 def avg40(x):
 	
+# 3.41
+def hit(xc, yc, r, xp, yp):
+	if ((xc - xp) ** 2 + (yc - yp) ** 2) ** (1 / 2) < r:
+		return 'true'
+	else:
+		return 'false'
+
+# 3.42
+def ion(x):
+
+# 3.43
+def distance(x):

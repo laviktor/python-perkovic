@@ -212,3 +212,5 @@ print(lastF(FirstName2, LastName2))
 print()
 
 # 3.40
+def avg40(x):
+	

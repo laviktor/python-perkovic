@@ -206,5 +206,9 @@ LastName1 = 'Locke'
 FirstName2 = 'Albert'
 LastName2 = 'Camus'
 def lastF(x, y):
-	return y + ', ' + x[0] + '.'
-lastF(FirstName1, LastName1)
+	return str(y + ', ' + x[0] + '.')
+print(lastF(FirstName1, LastName1))
+print(lastF(FirstName2, LastName2))
+print()
+
+# 3.40

@@ -240,5 +240,6 @@ def distance(x):
 	speed_of_sound = 340.29
 	d_km = x * speed_of_sound / 1000
 	return d_km
-print(distance(ex43a)
-print(distance(ex43b)
+print(distance(ex43a))
+print(distance(ex43b))
+print()

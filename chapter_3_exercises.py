@@ -228,7 +228,17 @@ print(hit(0, 0, 3, 4, 0))
 print()
 
 # 3.42
-def ion(x):
-
+# ex42a = 'congratulation'
+# ex42b = 'marathon'
+def ion2e(x):
+	if x[-1] == 'n' and x[-2] == 'o' and x[-3] == 'i':
+		
 # 3.43
+ex43a = 3
+ex34b = 6
 def distance(x):
+	speed_of_sound = 340.29
+	d_km = x * speed_of_sound / 1000
+	return d_km
+print(distance(ex43a)
+print(distance(ex43b)

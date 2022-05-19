@@ -216,11 +216,16 @@ print()
 def avg40(x):
 	
 # 3.41
+# ex41a = (0, 0, 3, 3, 0)
+# ex41b = (0, 0, 3, 4, 0)
 def hit(xc, yc, r, xp, yp):
 	if ((xc - xp) ** 2 + (yc - yp) ** 2) ** (1 / 2) < r:
 		return 'true'
 	else:
 		return 'false'
+print(hit(0, 0, 3, 3, 0))
+print(hit(0, 0, 3, 4, 0))
+print()
 
 # 3.42
 def ion(x):

@@ -7,3 +7,5 @@ s[0:4]
 s[7:]
 
 # 4.2
+forecast = 'It will be a sunny day today'
+count = forecast.count('day')

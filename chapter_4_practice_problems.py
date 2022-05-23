@@ -28,3 +28,16 @@ def even(x):
     if i % 2 == 0 or i % 3 == 0:
       print(i, end = ', ')
 even(ex4a)
+# Test this out, because it is not working on the online compiler
+
+# 4.5
+first = 'John'
+last = 'Doe'
+street = 'Main Street'
+number = 123
+city = 'AnyCity'
+state = 'AS'
+zipcode = '09876'
+print('{} {}'.format(first, last) + '\n' + '{} {}'.format(str(number), street) + '\n' + '{}, {} {}'.format(city, state, zipcode))
+
+# 4.6

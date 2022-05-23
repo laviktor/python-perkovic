@@ -16,3 +16,9 @@ change = forecast.replace('sunny', 'cloudy')
 change
 
 # 4.3
+last = 'Smith'
+first = 'John'
+middle = 'Paul'
+print(last, first, middle, sep = '\t')
+
+# 4.4

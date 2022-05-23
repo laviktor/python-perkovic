@@ -9,3 +9,10 @@ s[7:]
 # 4.2
 forecast = 'It will be a sunny day today'
 count = forecast.count('day')
+count
+weather = forecast.find('sunny')
+weather
+change = forecast.replace('sunny', 'cloudy')
+change
+
+# 4.3

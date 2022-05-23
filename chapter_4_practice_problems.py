@@ -22,3 +22,9 @@ middle = 'Paul'
 print(last, first, middle, sep = '\t')
 
 # 4.4
+ex4a = 17
+def even(x):
+  for i in range(2, x):
+    if i % 2 == 0 or i % 3 == 0:
+      print(i, end = ', ')
+even(ex4a)

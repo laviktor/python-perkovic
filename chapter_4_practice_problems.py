@@ -41,3 +41,11 @@ zipcode = '09876'
 print('{} {}'.format(first, last) + '\n' + '{} {}'.format(str(number), street) + '\n' + '{}, {} {}'.format(city, state, zipcode))
 
 # 4.6
+students = []
+students.append(['DeMoines', 'Jim', 'Sophomore', 3.45])
+students.append(['Pierre', 'Sophie', 'Sophomore', 4.00])
+students.append(['Columbus', 'Maria', 'Senior', 2.50])
+students.append(['Phoenix', 'River', 'Junior', 2.45])
+students.append(['Olympis', 'Edgar', 'Junior', 3.99])
+
+def roster():

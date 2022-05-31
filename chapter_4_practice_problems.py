@@ -49,6 +49,8 @@ students.append(['Phoenix', 'River', 'Junior', 2.45])
 students.append(['Olympis', 'Edgar', 'Junior', 3.99])
 
 def roster(x):
-  '{0:10}{0:10}{0:10}{0:8.2}'.format()
   # Changed "Average Grade" to "GPA" for better nomenclature
   print('Last First Class GPA')
+  format_str = '{0:10}{0:10}{0:10}{0:8.2}'
+  for i in range(0, 5):
+roster(students)

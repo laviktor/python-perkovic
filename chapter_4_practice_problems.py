@@ -63,3 +63,8 @@ def stringCount(filename, target):
   infile.close()
   
   return filename.count(target)
+
+# To count text from a file, suppose the file is assigned as x, then
+x.read().count(' ')
+# where x.read() is the text as a string, assigned x
+# the .count() is a string function counting the desired string

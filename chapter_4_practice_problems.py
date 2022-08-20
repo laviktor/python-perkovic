@@ -58,4 +58,4 @@ roster(students)
 # 4.7
 
 def stringCount(x, y):
-  
+  x = open(x, y)

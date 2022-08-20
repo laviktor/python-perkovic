@@ -54,3 +54,8 @@ def roster(x):
   format_str = '{0:10}{0:10}{0:10}{0:8.2}'
   for i in range(0, 5):
 roster(students)
+
+# 4.7
+
+def stringCount(x, y):
+  

@@ -57,5 +57,9 @@ roster(students)
 
 # 4.7
 
-def stringCount(x, y):
-  x = open(x, y)
+def stringCount(filename, target):
+  infile = open(filename, 'r')
+  content = infile.read()
+  infile.close()
+  
+  return filename.count(target)

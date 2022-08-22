@@ -28,7 +28,7 @@ def even(x):
     if i % 2 == 0 or i % 3 == 0:
       print(i, end = ', ')
 even(ex4a)
-# Test this out, because it is not working on the online compiler
+# Edits made and worked on Python3 on macOS
 
 # 4.5
 first = 'John'
@@ -39,6 +39,8 @@ city = 'AnyCity'
 state = 'AS'
 zipcode = '09876'
 print('{} {}'.format(first, last) + '\n' + '{} {}'.format(str(number), street) + '\n' + '{}, {} {}'.format(city, state, zipcode))
+# Alternatively
+print('\n{} {}\n{} {}\n{}, {} {}\n'.format(first, last, number, street, city, state, zipcode))
 
 # 4.6
 students = []

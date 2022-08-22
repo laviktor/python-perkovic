@@ -4,7 +4,7 @@ s[2:5]
 s[7:9]
 s[1:8]
 s[0:4]
-s[7:]
+s[7:10]
 
 # 4.2
 forecast = 'It will be a sunny day today'

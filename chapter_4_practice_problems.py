@@ -51,11 +51,13 @@ students.append(['Phoenix', 'River', 'Junior', 2.45])
 students.append(['Olympis', 'Edgar', 'Junior', 3.99])
 
 def roster(x):
-  title_format = '{0:10}{0:10}{0:10}{0:10}'
+  title_format = '{0:10}{1:10}{2:10}{3:10}'
   # Changed "Average Grade" to "GPA" for better nomenclature
-  print(title_format.format('Last', 'First', 'Class', 'GPA'))
-  table_format = '{0:10}{0:10}{0:10}{0:8.3}'
+  # Spacing was incorrect, thus "Average Grade" shall be reverted
+  print(title_format.format('Last', 'First', 'Class', 'Average Grade'))
+  table_format = '{0:10}{1:10}{2:10}{3:8.3f}'
   for i in range(0, len(students)):
+    print(table_format.format(students[i][0], students[i][1], students[i][2], students[i][3]))
 roster(students)
 
 # 4.7

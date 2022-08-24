@@ -55,7 +55,7 @@ def roster(x):
   # Changed "Average Grade" to "GPA" for better nomenclature
   # Spacing was incorrect, thus "Average Grade" shall be reverted
   print(title_format.format('Last', 'First', 'Class', 'Average Grade'))
-  table_format = '{0:10}{1:10}{2:10}{3:8.3f}'
+  table_format = '{0:10}{1:10}{2:10}{3:8.2f}'
   for i in range(0, len(students)):
     print(table_format.format(students[i][0], students[i][1], students[i][2], students[i][3]))
 roster(students)

@@ -73,3 +73,8 @@ def stringCount(filename, target):
 x.read().count(' ')
 # where x.read() is the text as a string, assigned x
 # the .count() is a string function counting the desired string
+
+# 4.8
+ def Words(x):
+    infile = open(x, 'r')
+    

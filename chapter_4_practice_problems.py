@@ -75,6 +75,9 @@ x.read().count(' ')
 # the .count() is a string function counting the desired string
 
 # 4.8
- def Words(x):
+def Words(x):
     infile = open(x, 'r')
     
+# 4.9
+def myGrep(x, y):
+  

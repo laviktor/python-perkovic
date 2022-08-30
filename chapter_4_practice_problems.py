@@ -85,14 +85,22 @@ def myGrep(x, y):
 # Explain what causes the syntax error in each statement just listed. Then write a correct version of each Python statement.
 if x == 5
 # SyntaxError: invalid syntax
+# Correction - colon is needed after conditional phase
+if x == 5:
 print 'hello'
 # SyntaxError: Invalid syntax
+# Correction - parenthesis was omitted
+print('hello)
 lst = [4;5;6]
 # SyntaxError: Invalid syntax
+# Correction - Commas used, not semicolons
+lst = [4,5,6]
 for i in range(10):
 print(i)
 # SyntaxError: expected an indented block
-
+# Correction - Indent is needed for any print statements within the loop
+for i in range(10):
+      print(i)
 
 # 4.11
 import time

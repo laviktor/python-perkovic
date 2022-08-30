@@ -83,6 +83,16 @@ def myGrep(x, y):
   
 # 4.10
 # Explain what causes the syntax error in each statement just listed. Then write a correct version of each Python statement.
+if x == 5
+# SyntaxError: invalid syntax
+print 'hello'
+# SyntaxError: Invalid syntax
+lst = [4;5;6]
+# SyntaxError: Invalid syntax
+for i in range(10):
+print(i)
+# SyntaxError: expected an indented block
+
 
 # 4.11
 import time

@@ -82,10 +82,10 @@ def Words(x):
 def myGrep(x, y):
   
 # 4.10
+# Explain what causes the syntax error in each statement just listed. Then write a correct version of each Python statement.
 
 # 4.11
 import time
 t = time.localtime(1500000000)
 
 def strftime():
-  

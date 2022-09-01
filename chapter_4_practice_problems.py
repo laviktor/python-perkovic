@@ -74,8 +74,13 @@ def stringCount(file_name, target):
   return occurrences
 
 # 4.8
-def Words(x):
-    infile = open(x, 'r')
+def words(file_name):
+    in_file = open(file_name, 'r')
+    content = in_file.read()
+    in_file.close()
+    
+    word_list = content.split()
+    print(word_list)
     
 # 4.9
 def myGrep(x, y):

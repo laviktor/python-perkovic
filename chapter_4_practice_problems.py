@@ -81,6 +81,7 @@ def words(file_name):
     
     word_list = content.split()
     print(word_list)
+    # Has to omit the punctuations as well
     
 # 4.9
 def myGrep(x, y):

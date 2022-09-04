@@ -88,7 +88,9 @@ def myGrep(file_name, target_string):
   in_file = open(file_name, 'r')
   for line in in_file:
     if target_string in line:
-      
+      print(line, end = '')
+
+myGrep('example.txt', 'line')
   
 # 4.10
 # Explain what causes the syntax error in each statement just listed. Then write a correct version of each Python statement.

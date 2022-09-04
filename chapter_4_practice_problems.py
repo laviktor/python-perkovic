@@ -86,7 +86,9 @@ def words(file_name):
 # 4.9
 def myGrep(file_name, target_string):
   in_file = open(file_name, 'r')
-  if target_string in 
+  for line in in_file:
+    if target_string in line:
+      
   
 # 4.10
 # Explain what causes the syntax error in each statement just listed. Then write a correct version of each Python statement.

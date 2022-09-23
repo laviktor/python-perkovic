@@ -13,3 +13,4 @@ sc.split('&')
 sd = '10 - 20 - 30 - 40 - 50 - 60'
 sd.split(' - ')
 # 4.16
+for i in (0, len(input)):

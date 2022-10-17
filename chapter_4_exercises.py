@@ -14,3 +14,8 @@ sd = '10 - 20 - 30 - 40 - 50 - 60'
 sd.split(' - ')
 # 4.16
 for i in (0, len(input)):
+# 4.17
+message = 'The secret of this message is that it is a secret.'
+legnth = len(message)
+count = 
+variable = 
